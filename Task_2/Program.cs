@@ -1,10 +1,8 @@
-﻿Console.WriteLine("Введите первое число");
+﻿Console.Write("Ведите первое число: ");
 int x = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите второе число");
+Console.Write("Ведите второе число число: ");
 int y = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите третье число");
-int z = Convert.ToInt32(Console.ReadLine());
-int Max = x;
-if (y > Max) Max = y;
-if (z > Max) Max = z;
-Console.WriteLine(Max);
+if (x > y)
+    Console.WriteLine(x);
+else
+    Console.WriteLine(y);
