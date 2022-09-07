@@ -1,8 +1,5 @@
 ﻿Console.WriteLine("Введите число: ");
 int x = Convert.ToInt32(Console.ReadLine());
-while (x / 100 == 0)
-{
-    Console.WriteLine("Попробуйте еще раз: ");
-    x = Convert.ToInt32(Console.ReadLine());
-}
-Console.WriteLine(x % 1000 / 100);
+if (x / 100 == 0) Console.WriteLine("Третьей цыфры нет!");
+else
+    Console.WriteLine(x % 1000 / 100);
