@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Enter first number: ");
+# Четверть системы координат
+Console.WriteLine("Enter first number: ");
 int x = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter secend number: ");
 int y = Convert.ToInt32(Console.ReadLine());
