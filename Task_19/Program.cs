@@ -2,7 +2,7 @@
 int x = Convert.ToInt32(Console.ReadLine());
 while (x / 10000 == 0 || x / 100000 != 0)
 {
-    Console.WriteLine("Не верноб попробуйте еще раз: ");
+    Console.WriteLine("Не верно, попробуйте еще раз: ");
     x = Convert.ToInt32(Console.ReadLine());
 }
 
